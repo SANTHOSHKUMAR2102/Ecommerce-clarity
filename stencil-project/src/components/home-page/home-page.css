@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  position: relative;
+  font-style: italic;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 720px;
+  border-radius: 10px;
+}
+body img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.about{
+  text-decoration: none;
+  color: white;
+  float: right;
+  padding: 10px 20px;
+  font-style: normal;
+  font-size: small;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.about:hover {
+  color: grey;
+}
+
+.caption{
+  padding: 100px;
+}
+
+.caption .login-btn{
+  padding: 10px 20px;
+  border: 0;
+  background-color: #218838;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.caption .login-btn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #6ba578;
+}
+
+.title{
+  color: orange;
+}
+
+.login-btn-container{
+  display: inline-block;
+  margin-right: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 10px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: whitesmoke;
+}
+
+.login-btn-container p{
+  color: black;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.u-btn,.admin-btn{
+  padding: 10px 50px;
+  border: 0;
+  background-color: rgb(204, 203, 203);
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.u-btn:hover,.admin-btn:hover {
+  background-color: white;
+}

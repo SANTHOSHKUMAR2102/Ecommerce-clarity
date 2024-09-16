@@ -1,0 +1,152 @@
+:host {
+  display: block;
+}
+
+.mycart{
+  overflow-y: auto;
+  max-height: 80vh;
+}
+.shopping-cart{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  bottom: 0;
+  background-color: whitesmoke;
+  z-index: 2;
+  transition: 0.4s;
+  overflow-y: auto;
+}
+
+:host([open]) .shopping-cart{
+  right: 0;
+}
+
+.shopping-cart {
+  width: 300px;
+ 
+}
+
+.shopping-cart h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+}
+
+.shopping-cart h4{
+  color: green;
+}
+
+.shopping-cart ul {
+  list-style: none;
+  padding: 0 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.shopping-cart li {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart img{
+  width: 30%;
+}
+
+.dlt-btn{
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.shopping-cart .empty-line{
+  text-align: center;
+}
+
+.t-box{
+  padding: 0 10px 5px;
+}
+
+.t-box button{
+  padding: 10px 20px;
+  background-color: #28a745;
+  border: 0;
+  color: white;
+}
+
+.t-box button:hover{
+  background-color: #177e2f;
+}
+
+.close-btn{
+  position: absolute;
+  top: 0;
+  border: 0;
+  padding-top: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close-btn:hover{
+  background-color: rgb(161, 161, 161);
+}
+
+.open-buttno{
+  position: absolute;
+}
+
+/* nav styling */
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: #ccc;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0 20px;
+}
+.nav-details{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.cart-tag{
+  align-items: center;
+  margin-right: 30px;
+  background-color: whitesmoke;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+.cart-tag:hover{
+  background-color: rgb(219, 219, 219);
+}
+.cart-tag span{
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 20px;
+}
+.cart-tag img{
+  width: 20px;
+}
+.close-cart{
+  position: absolute;
+}
