@@ -1,0 +1,1 @@
+import{r as s,h as c,H as o}from"./p-3d593cab.js";const t=":host{display:block}";const b=t;const r=class{constructor(c){s(this,c)}render(){return c(o,{key:"0b14c1f3d8d4611d50926c31db61322b0877cd55"},c("slot",{key:"2c5456e686b8fe803022012f59019967abfa1bb3"}))}};r.style=b;export{r as ch_about};

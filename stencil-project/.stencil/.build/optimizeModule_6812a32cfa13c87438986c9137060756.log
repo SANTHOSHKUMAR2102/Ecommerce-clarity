@@ -1,0 +1,1 @@
+import{r as c,h as s,H as a}from"./p-e9cc6040.js";const o=":host{display:block}";const r=o;const t=class{constructor(s){c(this,s)}render(){return s(a,{key:"ffa847dc5cd087c0bfceda356b39baf66ba65043"},s("cd-line",{key:"066338c4961465d380a1ce91d2ad88844c882827"}))}};t.style=r;export{t as cd_rout};

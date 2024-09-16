@@ -1,0 +1,1 @@
+import{r as c,h as d,H as s}from"./p-6f6d26fd.js";const e=":host{display:block}";const o=e;const r=class{constructor(d){c(this,d)}render(){return d(s,{key:"5127c00de2e524bcd207254a12d2ec79df4cea18"},d("cd-line",{key:"8653ac4af244ac98bc5fd91f778d67d5dfd77db6"}))}};r.style=o;export{r as cd_rout};

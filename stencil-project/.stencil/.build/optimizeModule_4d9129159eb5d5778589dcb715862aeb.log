@@ -1,0 +1,1 @@
+import{r as c,h as e,H as s}from"./p-3d593cab.js";const a=":host{display:block}";const d=a;const o=class{constructor(e){c(this,e)}render(){return e(s,{key:"1dc2f095e9b4da5232e7dcd293107400514401ea"},e("cd-line",{key:"e2e7dbace1b419f4115cc5fbc9aa0a86cb119d5f"}))}};o.style=d;export{o as cd_rout};
